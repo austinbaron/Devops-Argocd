@@ -33,7 +33,7 @@ spec:
   selector:
     app: flask
   ports:
-    - port: 80        # External port exposed by the service
-      targetPort: 5000 # Port on the pod
-      nodePort: 31080  # Optional: Specify a node port (31080 in this case)
-  type: NodePort       # Change the type to NodePort
+    - port: 80        
+      targetPort: 5000 
+      nodePort: 31070  
+  type: NodePort       
